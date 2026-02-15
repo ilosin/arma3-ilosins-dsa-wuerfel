@@ -1,7 +1,7 @@
 class CfgPatches {
     class DiceRollByDive {
-        name = "Dive's Simple Dice Roll";
-        author = "Dive";
+        name = "Ilosin's DSA Dice Roll";
+        author = "Ilosin";
         requiredVersion = 1.0;
         requiredAddons[]=
 		{
