@@ -93,12 +93,12 @@ if (_hasDifficulty) then {
 	};
 
 	if (_hasCriticals) then {
-		if (_result == 1) then {
+		if (_result == _sides) then {
 			_outcome = call _fn_getCriticalFailureMessage;
 			_sound = "DSDR_Failure_Critical";
 		};
 
-		if (_result == _sides) then {
+		if (_result == 1) then {
 			_outcome = call _fn_getCriticalSuccessMessage;
 			_sound = "DSDR_Success_Critical"; 
 		};
