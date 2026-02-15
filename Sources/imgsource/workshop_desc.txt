@@ -1,25 +1,46 @@
-[h2]This mod adds a DND-like mechanic where Zeus can initiate a Dice roll for a Player.[/h2][h3]How to use:[/h3]1. Locate the modules under [i] "Dive's DnD Dice"[/i] 
-2. Choose a Dice you wish to roll [i](D4, D6, D8, D10, D100, D12, D20)[/i] 
+[h2]This mod is a fork of Dive's DnD Dice - RPG Dice Roll for Zeus and adapts it for The Dark Eye (Das Schwarze Auge) rules.[/h2]
+
+This mod is based on the original Dive's DnD Dice - RPG Dice Roll for Zeus and modifies its mechanics to support the rule system of The Dark Eye (Das Schwarze Auge).
+
+Instead of the classic DnD-style check, rolls are evaluated using a DSA-style mechanic:
+
+* A roll is successful if the result is less than or equal to the difficulty/value.
+* The highest possible dice result counts as a critical failure.
+* A roll of 1 always counts as a critical success.
+
+All other functionality and usage remain largely identical to the original mod.
+
+[h3]How to use:[/h3]
+
+1. Locate the modules under [i]"Ilosin's DSA Dice"[/i]
+2. Choose a Dice you wish to roll [i](D4, D6, D8, D10, D100, D12, D20)[/i]
 3. The module could be placed two ways:
-a. [b]On a Player[/b] . In this case the Player's name will be visible in the Dice Roll UI
-b. [b]Not on a Player[/b] . In this case no Players will be mentioned in the Dice Roll UI
+   a. [b]On a Player[/b] – In this case the Player's name will be visible in the Dice Roll UI
+   b. [b]Not on a Player[/b] – In this case no Players will be mentioned in the Dice Roll UI
 4. Configure the Settings and press OK
 
-[h3]Available settings[/h3]1. [b]Visibility Radius[/b] - Players within the Radius will see the Dice Roll UI. If you want the dice roll to not be visible by Players that are far away you can use this.
-2. [b]Global Visibility[/b] - Every Player on the map will see the Dice Roll UI
-3. [b]Message [/b] -  Dice Roll UI will contain the text of this message. This is intended to help the Players understand what is the purpose of this particular Dice Roll.
-4. [b]Check against Difficulty[/b] - When enabled the Dice Roll will be compared against the configurable Difficulty. If the check passes the Player will see the "Success" text, or "Failure" otherwise. By default it is enabled only for D20 but you can use it with other dice too.
-5. [b]Difficulty[/b] - If "Check against Difficulty" is enabled this slider determines the difficulty of the roll.
-6. [b]Enable Critical Success/Failure[/b] - When enabled, the lowest value of the dice (e.g. 1 for D20) will result in a "Critical Failure" message, while the highest value of the dice (e.g. 20 for D20) will result in a "Critical Success"  message. By default it is enabled only for D20 but you can use it with other dice too.
+[h3]Available settings[/h3]
 
-[h3]Included Dice[/h3]Full standard set is included!
+1. [b]Visibility Radius[/b] – Players within the Radius will see the Dice Roll UI. If you want the dice roll to not be visible by Players that are far away you can use this.
+2. [b]Global Visibility[/b] – Every Player on the map will see the Dice Roll UI
+3. [b]Message[/b] – Dice Roll UI will contain the text of this message. This is intended to help the Players understand what is the purpose of this particular Dice Roll.
+4. [b]Check against Difficulty[/b] – When enabled the Dice Roll will be compared against the configurable Difficulty using the DSA-style rule (roll ≤ difficulty = success).
+5. [b]Difficulty[/b] – If "Check against Difficulty" is enabled this slider determines the target value of the roll.
+6. [b]Enable Critical Success/Failure[/b] – When enabled, a roll of **1** results in a "Critical Success", while the **highest possible value of the dice** results in a "Critical Failure", following DSA conventions.
+
+[h3]Included Dice[/h3]
+Full standard set is included!
 [b]D4, D6, D8, D10*, D100, D12, D20[/b]
-* Note that values for D10 start from 0 and end at 9 to replicate how IRL D10 works. All other Dice start with 1 and end with their respective number.
 
-[h3]Supported Languages[/h3]English
-Russian
+*Note that values for D10 start from 0 and end at 9 to replicate how IRL D10 works. All other Dice start with 1 and end with their respective number.*
 
+[h3]Supported Languages[/h3]
+English
+German
 
-[h3]Source Code[/h3][url=https://github.com/dive155/arma3-dives-simple-dice-roll]https://github.com/dive155/arma3-dives-simple-dice-roll[/url]
+[h3]Source Code[/h3]
+Original mod repository:
+[url=https://github.com/dive155/arma3-dives-simple-dice-roll]https://github.com/dive155/arma3-dives-simple-dice-roll[/url]
 
-[h3]Contact[/h3][url=https://discordapp.com/users/dive155]My Discord[/url]
+Forked mod repository:
+[url=https://github.com/ilosin/1ACD_arma3_dives_simple_dice_roll_fork/tree/Ilosins_DSA_Wuerfel]https://github.com/ilosin/1ACD_arma3_dives_simple_dice_roll_fork/tree/Ilosins_DSA_Wuerfel[/url]
