@@ -44,7 +44,7 @@ playSound "DSDR_Roll";
 	_currentColor = "#00d2ff";
 	if (_hasDifficulty) then {
 		_currentColor = "#f79205";
-		if (_value >= _difficulty) then {
+		if (_value <= _difficulty) then {
 			_currentColor = "#099124";
 		}; 
 	};
@@ -110,7 +110,7 @@ if (_hasDifficulty) then {
 
 // Is Zeus
 if (count _affectedPlayers > 0) then {
-	private _checkPassed = (not _hasDifficulty) or {_result >= _difficulty};
+	private _checkPassed = (not _hasDifficulty) or {_result <= _difficulty};
 	private _args = [
 		_result, 
 		_checkPassed,
