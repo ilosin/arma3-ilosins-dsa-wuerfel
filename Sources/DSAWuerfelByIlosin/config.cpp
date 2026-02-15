@@ -19,7 +19,7 @@ class CfgPatches {
 class CfgFunctions {
     class DSDR {
         class Functions {
-            file = "DiceRollByDive\functions";
+            file = "DSAWuerfelByIlosin\functions";
             class rollDice {};
 			class rollDiceZeus {};
 			class generateDiceFrames {};
@@ -43,7 +43,7 @@ class Extended_PostInit_EventHandlers
 {
 	class DSDR_PostInit
 	{
-		init="call compile preprocessFileLineNumbers 'DiceRollByDive\XEH_postInit.sqf'";
+		init="call compile preprocessFileLineNumbers 'DSAWuerfelByIlosin\XEH_postInit.sqf'";
 	};
 };
 

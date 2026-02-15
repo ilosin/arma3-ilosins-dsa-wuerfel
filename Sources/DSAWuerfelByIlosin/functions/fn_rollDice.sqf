@@ -16,7 +16,7 @@ _useZero = _sides == 10;
 
 _playerName = if (not isNull _targetPlayer) then {name _targetPlayer} else {""};
 
-_introText = format ["<img <img size='5' image='\DiceRollByDive\ui\d%1_big.paa'/><br/><t font='PuristaBold' size='3'>%2 (D%3)</t><br/><t font='PuristaMedium' color='#dedede' size='2'>%4</t>", _sides, (localize "STR_DSDR_Title"), _sides, _message];
+_introText = format ["<img <img size='5' image='\DSAWuerfelByIlosin\ui\d%1_big.paa'/><br/><t font='PuristaBold' size='3'>%2 (D%3)</t><br/><t font='PuristaMedium' color='#dedede' size='2'>%4</t>", _sides, (localize "STR_DSDR_Title"), _sides, _message];
 if (_playerName != "") then {
 	_introText = _introText + format["<br/><t font='PuristaBold' size='2'>%1 </t><t font='PuristaBold' color='#00d2ff' size='2'>%2</t>", localize "STR_DSDR_ForPlayer", _playerName]
 };
