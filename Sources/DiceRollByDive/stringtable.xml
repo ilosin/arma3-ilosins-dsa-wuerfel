@@ -44,9 +44,9 @@
 	</Package>
 	<Package name="settingsUI">
 		<Key ID="STR_DSDR_ModuleCategory">
-			<Original>Dive's DnD Dice</Original>
+			<Original>Ilosin's The Dark Eye Dice</Original>
 			<Russian>Dive's DnD Кубики</Russian>
-			<German>Dive's DnD Würfel</German>
+			<German>Ilosins DSA Würfel</German>
 		</Key>
 		<Key ID="STR_DSDR_ModuleSubcategory">
 			<Original>Roll the Dice</Original>
@@ -119,9 +119,9 @@
 			<German>Kritischen Erfolg/Patzer aktivieren</German>
 		</Key>
 		<Key ID="STR_DSDR_UseCriticalDescription">
-			<Original>When enabled, the lowest value of the dice will result in a "Critical Failure" message, while the highest value of the dice will result in a "Critical Success"  message</Original>
+			<Original>When enabled, the lowest value of the dice will result in a "Critical Success" message, while the highest value of the dice will result in a "Critical Failure"  message</Original>
 			<Russian>Когда включено то минимальное значение при броске кубика приведет к показу сообщения "Критическая Неудача", а максимальное к "Критическая Удача"</Russian>
-			<German>Wenn aktiviert, führt der niedirigste Würfelwert zu einer "Patzer" Nachricht, während der höchste Wert führt zu einer "kritischer Erfolg" Nachricht zur Folge hat</German>
+			<German>Wenn aktiviert, führt der niedirigste Würfelwert zu einer "Kritischer Erfolg" Nachricht, während der höchste Wert führt eine "Patzer" Nachricht zur Folge hat</German>
 		</Key>
 		<Key ID="STR_DSDR_CodeTitle">
 			<Original>Script to Execute after the Roll (hover for tooltip):</Original>
