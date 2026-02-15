@@ -109,9 +109,9 @@
 			<German>Schwierigkeit</German>
 		</Key>
 		<Key ID="STR_DSDR_DifficultyDescription">
-			<Original>The value the player needs to roll to succeed</Original>
+			<Original>The value the player needs to undermatch or exactly match to succeed</Original>
 			<Russian>Какое значение должен бросить игрок для успешного прохождения проверки</Russian>
-			<German>Der Wert, den der Spieler Würfel muss um erfolgreich zu sein</German>
+			<German>Der Wert, den der Spieler unterbieten oder genau würfeln muss muss um erfolgreich zu sein</German>
 		</Key>
 		<Key ID="STR_DSDR_UseCriticalTitle">
 			<Original>Enable Critical Success/Failure</Original>
