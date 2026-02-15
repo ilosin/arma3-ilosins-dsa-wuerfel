@@ -82,12 +82,12 @@ _result = _frames select (count _frames - 1) select 0;
 _outcome = "";
 _sound = "";
 if (_hasDifficulty) then {
-	if (_result < _difficulty) then {
+	if (_result > _difficulty) then {
 		_outcome = call _fn_getFailureMessage;
 		_sound = "DSDR_Failure";
 	};
 
-	if (_result >= _difficulty) then {
+	if (_result <= _difficulty) then {
 		_outcome = call _fn_getSuccessMessage;
 		_sound = "DSDR_Success";
 	};
