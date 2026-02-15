@@ -43,4 +43,4 @@ Original mod repository:
 [url=https://github.com/dive155/arma3-dives-simple-dice-roll]https://github.com/dive155/arma3-dives-simple-dice-roll[/url]
 
 Forked mod repository:
-[url=https://github.com/ilosin/1ACD_arma3_dives_simple_dice_roll_fork/tree/Ilosins_DSA_Wuerfel]https://github.com/ilosin/1ACD_arma3_dives_simple_dice_roll_fork/tree/Ilosins_DSA_Wuerfel[/url]
+[url=https://github.com/ilosin/arma3-ilosins-dsa-wuerfel]https://github.com/ilosin/arma3-ilosins-dsa-wuerfel[/url]
